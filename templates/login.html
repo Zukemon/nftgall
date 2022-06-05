@@ -1,0 +1,57 @@
+{% extends "layout2.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+    <form action="/login" method="post">
+        <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control btn-dark bg-transparent" name="username" placeholder="Username" type="text">
+        </div>
+        <div class="form-group">
+            <input class="form-control btn-dark bg-transparent" name="password" placeholder="Password" type="password">
+        </div>
+        <button class="btn btn-dark bg-transparent" type="submit">Log In</button>
+    </form>
+
+    <div id="viewer">
+        <div id= projects>
+            <div class="row">
+                
+                <div class="col-lg-4 col-md-12 top-buffer">
+                <a href="/nft_naomi" target="_blank" rel="noopener">
+                    <img src="/static/images/naomi.jpg" loading="lazy"></a>
+                </div>
+                    
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/nft_dem_say" target="_blank" rel="noopener">
+                        <img src="/static/images/dem_say.jpg" loading="lazy"></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/nft_kilimanjaro" target="_blank" rel="noopener">
+                        <img src="/static/images/kilimanjaro.jpg" loading="lazy"></a>
+                </div>
+            </div>
+            
+            <div class="row space">
+                <div class="col-lg-4 col-md-12 top-buffer">
+                <a href="/nft_closer" target="_blank" rel="noopener">
+                    <img src="/static/images/closer.jpg" loading="lazy"></a>
+                </div>
+                    
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/static/images/" target="_blank" rel="noopener">
+                        <img src="/static/images/img1.jpg" loading="lazy"></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/static/images/" target="_blank" rel="noopener">
+                        <img src="/static/images/img1.jpg" loading="lazy"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

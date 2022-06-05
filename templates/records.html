@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Collections
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped f_main" style="width:100%">
+        <thead style="color: rgb(196, 207, 216);">
+            <tr>
+              <th>NFT</th>
+              <th>Editions</th>
+              <th>Price</th>
+              <th>Time/ Date Stamp</th>
+            </tr>
+        </thead>
+
+        
+        <tbody style="color: rgb(196, 207, 216);">
+            {% for portfolio in purchases %}
+            <tr>
+                <td>{{ portfolio.NFT }}</td>
+                <td>{{ portfolio.edition }}</td>
+                <td>{{ portfolio.price }}</td>
+                <td>{{ portfolio.transacted }}</td>
+            </tr>
+            {% endfor %}
+            <tr>
+                <td colspan="2">BALANCE</td>
+                <td>{{ cash }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+{% endblock %}

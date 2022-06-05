@@ -1,0 +1,121 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Sell
+{% endblock %}
+
+{% block main %}
+    <form action="/sell"  method="post">
+        <div class="form-group">
+            <select id="nft" class="form-control" name="NFT">
+                <option disabled selected value>NFT</option>
+                {% for NFT in Data %}
+                    <option >{{ NFT["NFT"] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        
+    </form>
+
+    <div id="viewer">
+        <div id= projects>
+            <div class="row">
+                
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/sell_naomi" target="_blank" rel="noopener">
+                    <img id='Naomi.Alt' src="/static/images/naomi.jpg" loading="lazy" style= "display: none;"></a>
+                </div>
+                    
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/sell_dem_say" target="_blank" rel="noopener">
+                        <img id='Dem.Say.Alt' src="/static/images/dem_say.jpg" loading="lazy" style= "display: none;"></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/sell_kilimanjaro" target="_blank" rel="noopener">
+                        <img id='Kilimanjaro.Alt' src="/static/images/kilimanjaro.jpg" loading="lazy" style= "display: none;"></a>
+                </div>
+            </div>
+            
+            <div class="row space">
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/sell_closer" target="_blank" rel="noopener">
+                    <img id='Closer.Alt' src="/static/images/closer.jpg" loading="lazy" style= "display: none;"></a>
+                </div>
+                    
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/static/images/" target="_blank" rel="noopener">
+                        <img id='Closer.Alt2' src="/static/images/img1.jpg" loading="lazy" style= "display: none;"></a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 top-buffer">
+                    <a href="/static/images/" target="_blank" rel="noopener">
+                        <img id='Closer.Alt2' src="/static/images/img1.jpg" loading="lazy" style= "display: none;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // var firstField = document.getElementById('nft');
+        // // var secField =   document.getElementById('nft');
+        // var image =    document.getElementById('Closer.Alt');
+        // var image2 =    document.getElementById('Dem.Say.Alt');
+        // var image3 =    document.getElementById('Kilimanjaro.Alt');
+        // var image4 =    document.getElementById('Naomi.Alt');
+    
+        
+        // if((firstField.value == image.id) || (firstField.value == image2.id) || (firstField.value == image3.id) || (firstField.value == image3.id)){
+        //     image.style.display = 'block';
+        //     image2.style.display = 'block';
+        //     image3.style.display = 'block';
+        //     image4.style.display = 'block';
+        // }
+        // else {
+        //     image.style.display = 'none';
+        //     image2.style.display = 'none';
+        //     image3.style.display = 'none';
+        //     image4.style.display = 'none';
+        // }
+        
+        Array.from(document.querySelector("#nft").options).forEach(function(option_element) {
+            let option_text = option_element.text;
+            let option_value = option_element.value;
+            let is_option_selected = option_element.selected;
+
+            console.log('Option Text : ' + option_text);
+            console.log('Option Value : ' + option_value);
+            // console.log('Option Selected : ' + (is_option_selected === true ? 'Yes' : 'No'));
+
+            console.log("\n\r");
+            var image =     document.getElementById('Naomi.Alt');
+            var image2 =    document.getElementById('Dem.Say.Alt');
+            var image3 =    document.getElementById('Kilimanjaro.Alt');
+            var image4 =    document.getElementById('Closer.Alt');
+                
+            if(option_value == image.id){
+                console.log('one')
+                image.style.display = 'block';
+            }
+
+            if(option_value == image2.id) {
+                console.log('two')
+                image2.style.display = 'block';
+            }
+
+            if(option_value == image3.id) {
+                console.log('three')
+                image3.style.display = 'block';
+            }
+    
+            if(option_value == image4.id) {
+                console.log('four')
+                image4.style.display = 'block';
+            }
+            
+        });
+
+    </script>
+
+{% endblock %}
