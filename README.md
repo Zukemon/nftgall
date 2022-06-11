@@ -10,8 +10,9 @@ https://user-images.githubusercontent.com/65060500/172038125-987df9c1-99e0-4680-
 
 
 
+Web App LINK: https://alter-gall.herokuapp.com
 
-YouTube LINK: <https://youtu.be/ZcxbrEl1SWU>
+YouTube Demo LINK: <https://youtu.be/ZcxbrEl1SWU>
 
 
 #### Description: 
