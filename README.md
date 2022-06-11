@@ -43,7 +43,6 @@ Alter Gallery is a platform for showcasing digital art (NFTs) using WebGL render
     The default cash for registered users is set at $500. Assuming that in real life application they have a coupon code or something to register with, or even by the use of gift or credit cards.
     
 
-*I have learnt a lot during this whole process and will keep my passion for Computer Science and Art alive forever after this experience.*
 
 **This is my final Project and this is CS50! Thank you!**
     
