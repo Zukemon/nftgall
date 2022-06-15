@@ -35,7 +35,7 @@ Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using Web
     • The main project folder contains two Python scripts, 'app.py' and 'helpers.py' and one SQL database file, 'gallery.db'. The 'app.py' file basically handles all the routing and logic for users to navigate the app easily, taking in GET and POST requests from the user which also allow for parsing data to and from a SQL database with tables for 'users' and 'purchases' made. Also, in the main project folder there are subfolders for 'static' files and 'templates' as arranged according to the Flask app configuration.</p>    
 <p>
     • The 'static' folder has four JS files for each NFT. They are all very similar and product of the same functions with only slight variations in file names, inputs and outputs. Each file contains code with THREE JS tools that enable uploading, arranging and updating animated glb/ gltf 3D models, including HDRI backgrounds exported from Blender and added elements like lights and an audio visualizer to complete the 3D scenes. The static folder also includes a 'styles.css' file, a 'three.js-master' module nodes folder containing the required THREEJS dependencies. Also included within this folder are subfolders for images, 3D models (.glb) files, music and a folder named 'world' for the various HDRI backgrounds used.
-    For styling I used bootstrap and css.</p>
+    For my styling I used bootstrap and css.</p>
 <p>
     • The 'templates' folder has all the html pages used to display the app data for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes per NFT model.</p> 
 
@@ -63,4 +63,3 @@ YouTube Demo LINK: <https://youtu.be/ZcxbrEl1SWU>
     <td><img alt="SQL" src ="https://img.shields.io/badge/SQLite%20-C0098.svg?&style=for-the-badge&logo=SQLite&logoColor=white"/> </td>
   </tr>
 </table>
-    
