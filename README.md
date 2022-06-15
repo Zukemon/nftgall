@@ -5,10 +5,10 @@
 </p>
 
 # Table of Contents
-1. [Overview](## overview)
-2. [Usage](## usage)
-3. [Setup](## setup)
-4. [Technologies](## technology)
+1. [Overview](#overview)
+2. [Usage](#usage)
+3. [Setup](#setup)
+4. [Technologies](#technology)
 
 
 https://user-images.githubusercontent.com/65060500/172038125-987df9c1-99e0-4680-8011-56efb271e167.mov
