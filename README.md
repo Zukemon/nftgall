@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/65060500/172038125-987df9c1-99e0-4680-
 
 
 ## Overview: 
-Alter Gallery is a platform for showcasing digital art (NFTs) using WebGL rendered interractive 3D scenes and models accompanied by music (with attached audio visualiser). This was made possible by using the Flask App, Three JS and Blender among other tools for the best results. Putting this whole project together was done using Visual Studio Code.
+Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using WebGL rendered interractive 3D scenes and models accompanied by music (and audio visualiser). This was made possible using the Flask App, Three JS and Blender among other tools for the best results. I also used Visual Studio Code for my text editing.
 
 ## Usage:
     When the user enters the URL, they'll be brought to the landing page where they must register or login if already registered. Here the user can also browse nft thumbnails.
@@ -24,17 +24,20 @@ Alter Gallery is a platform for showcasing digital art (NFTs) using WebGL render
     • 'Collections' tab: showing all purchases made.
     • 'Records' tab: showing all your transactions and total balance.
     • 'Password Change' tab: for password change.
+    
+    3D environment:
+    • Using the thumbnails the user can enter 3D environments and purchase the NFT they want. 
 
-(The default cash for registered users is set at $500. Assuming that in real life application they have a coupon code or something to register with, or even by the use of gift or credit cards.)
+(The default cash for registered users is set at $500. Assuming that in real life scenerio they have a coupon code or something similar to register with, or even using of gift cards, or credit cards.)
 
 ## Setup:
 <p>
-    • The main project folder contains two Python scripts, 'app.py' and 'helpers.py' and one SQL database file, 'gallery.db'. The 'app.py' file basically handles all the routing and logic for users to navigate the app easily which also allows for parsing of data to and from a sql database with tables for 'users' and 'purchases' made. Also, in the main project folder there are subfolders for 'static' and 'templates' as arranged according to my Flask app configuration.</p>    
+    • The main project folder contains two Python scripts, 'app.py' and 'helpers.py' and one SQL database file, 'gallery.db'. The 'app.py' file basically handles all the routing and logic for users to navigate the app easily, taking in GET and POST requests from the user which also allow for parsing data to and from a SQL database with tables for 'users' and 'purchases' made. Also, in the main project folder there are subfolders for 'static' files and 'templates' as arranged according to the Flask app configuration.</p>    
 <p>
-    • The 'static' folder has four written JS files for each NFT. They are all very similar and product of the same functions with only slight variations in file names, inputs and outputs. Each file contains code with THREE JS tools that enable uploading, arranging and updating animated glb/ gltf 3D models, including HDRI backgrounds exported from Blender and added elements like lights and an audio visualizer to complete the 3D scenes. The static folder also includes a 'styles.css' file, a 'three.js-master' module nodes folder containing required THREEJS dependencies. Finally, within this folder are subfolders for images, 3D model (.glb) files, music and a 'world' folder for the various HDRI backgrounds used.
-    For styling I depended on bootstrap and css.</p>
+    • The 'static' folder has four JS files for each NFT. They are all very similar and product of the same functions with only slight variations in file names, inputs and outputs. Each file contains code with THREE JS tools that enable uploading, arranging and updating animated glb/ gltf 3D models, including HDRI backgrounds exported from Blender and added elements like lights and an audio visualizer to complete the 3D scenes. The static folder also includes a 'styles.css' file, a 'three.js-master' module nodes folder containing the required THREEJS dependencies. Also included within this folder are subfolders for images, 3D models (.glb) files, music and a folder named 'world' for the various HDRI backgrounds used.
+    For styling I used bootstrap and css.</p>
 <p>
-    • The 'templates' folder has all the html pages used to display the app data for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes as per NFT model.</p> 
+    • The 'templates' folder has all the html pages used to display the app data for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes per NFT model.</p> 
 
 Web App LINK: https://alter-gall.herokuapp.com
 
