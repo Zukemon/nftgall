@@ -14,7 +14,7 @@
 4. [Technologies](##technology)
 
 
-#### Video Demo: <https://youtu.be/ZcxbrEl1SWU>
+https://user-images.githubusercontent.com/65060500/172038125-987df9c1-99e0-4680-8011-56efb271e167.mov
 
 
 ## Overview: 
@@ -41,9 +41,6 @@ Alter Gallery is a platform for showcasing digital art (NFTs) using WebGL render
     For my styling I depended on bootstrap and css which gave the app that "oomph" look and feel and effective responsiveness.
 
     • The 'templates' folder has all the html pages used to display the app data that is being passed to and from the user. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes as per NFT model. 
-
-
-https://user-images.githubusercontent.com/65060500/172038125-987df9c1-99e0-4680-8011-56efb271e167.mov
 
 Web App LINK: https://alter-gall.herokuapp.com
 
