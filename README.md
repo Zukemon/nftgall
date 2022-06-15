@@ -20,7 +20,7 @@ Alter Gallery is a platform for showcasing digital art (NFTs) using WebGL render
 
 
     
-#### Files used in this Project include:
+#### Flask setup:
 
     - The main project folder which has two python scripts namely 'app.py' and 'helpers.py' and one SQL database file namely 'gallery.db'. The 'app.py' file basically handles all the routing and logic for users to navigate the app easily which also allows for parsing of data to and from a sql data base that has tables for 'users' and 'purchases' made. The 'helpers.py' file was a bit of a challenge cause I wanted to create a url type data structure that could parse data as per request made which took a little bit of time and so I found a work around by placing the data directly into my 'lookup' function(s). This also had me create separate 'buy' and 'sell' functions as per the requested NFT. I would prefer the first option but due to the deadline I set for myself I had to settle on using the 2nd option - especially because the data for my 'NFTs' aren't available anywhere online yet. I did however notice that my second option gave an increase in app speed for users.
     
@@ -33,7 +33,7 @@ Alter Gallery is a platform for showcasing digital art (NFTs) using WebGL render
     - The 'templates' folder has all the html pages used to display the app data that is being passed to and from the user. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes as per NFT model. 
 
 
-#### Use:
+#### Usage:
     - Within the ThreeJS 3D (NFT Demo) scenes I've created click events to call and run functions on both the 3D objects (works best on desktop version) and on the title of the tracks (works on both desktop and mobile versions). So you can play music with animation, while you navigate the 3D environments. You can also pause/ play the music on command, while animation plays, hit browser reload button to reset, buy NFT from display and return to gallery at any point by clicking on the Gallery logo.
 
     - 'Collections' tab: showing all purchases made.
