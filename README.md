@@ -54,13 +54,12 @@ YouTube Demo LINK: <https://youtu.be/ZcxbrEl1SWU>
   </tr>
   <tr>
     <td>Frameworks & Libraries</td>
-    <td><img alt="Flask" src="https://img.shields.io/badge/flask%20-%2320232a.svg?&style=for-the-badge&logo=flask&logoColor=%white"/></td>
-    <td><img alt="ThreeJS" src="https://img.shields.io/badge/three.js%20-%2320232a.svg?&style=for-the-badge&logo=three.js&logoColor=%white"/></td>
+    <td><img alt="Flask" src="https://img.shields.io/badge/flask%20-%2320232a.svg?&style=for-the-badge&logo=flask&logoColor=%white"/> <img alt="ThreeJS" src="https://img.shields.io/badge/three.js%20-%2320232a.svg?&style=for-the-badge&logo=three.js&logoColor=%white"/></td>
   </tr>
   <tr>
     <td>Hosting</td>
-    <td><img alt="Heroku" src="https://img.shields.io/badge/heroku%20-%c9c3e6.svg?&style=for-the-badge&logo=heroku&logoColor=white"/> </td>
-    <td><img alt="AWS" src="https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white"/> </td>
+    <td><img alt="Heroku" src="https://img.shields.io/badge/heroku%20-%c9c3e6.svg?&style=for-the-badge&logo=heroku&logoColor=white"/>
+    <img alt="AWS" src="https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white"/> </td>
   </tr>
   <tr>
     <td>Databases</td>
