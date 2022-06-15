@@ -2,9 +2,6 @@
   <a href="https://alter-gall.herokuapp.com/">
     <h1>ALTER CONCEPTS GALLERY</h1>
   </a>
-  <p align="center">
-    At Book Squid, your bookshelf is not only made of rich mahogany and filled with many leatherbound books -- it's virtual!
-  </p>
 </p>
 
 # Table of Contents
