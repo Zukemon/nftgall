@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/65060500/172038125-987df9c1-99e0-4680-
 Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using WebGL rendered interractive 3D scenes and models accompanied by music (and audio visualiser). This was made possible using the Flask App, Three JS and Blender among other tools for the best results. I also used Visual Studio Code for my text editing.
 
 ## Usage:
-    When the user enters the URL, they'll be brought to the landing page where they must register or login if already registered. Here the user can also browse nft thumbnails.
+<p> When the user enters the URL, they'll be brought to the landing page where they must register or login if already registered. Here the user can also browse nft thumbnails.
 
     Once logged in the user will be able to use the following tabs:
     • 'Collections' tab: showing all purchases made.
@@ -26,7 +26,7 @@ Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using Web
     • 'Password Change' tab: for password change.
     
     3D environment:
-    • Using the thumbnails the user can enter 3D environments and purchase the NFT they want. 
+    • Using the thumbnails the user can enter 3D environments and purchase the NFT they want.</p> 
 
 (The default cash for registered users is set at $500. Assuming that in real life scenerio they have a coupon code or something similar to register with, or even using of gift cards, or credit cards.)
 
