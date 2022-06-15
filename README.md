@@ -39,9 +39,9 @@ Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using Web
 <p>
     • The 'templates' folder has all the html pages used to display the app data for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes per NFT model.</p> 
 
-<a href= "https://alter-gall.herokuapp.com"><h2>Web App LINK</h2></a>
+<a href= "https://alter-gall.herokuapp.com"><h2>Web App</h2></a>
 
-<a href= "https://youtu.be/ZcxbrEl1SWU"><h2>YouTube Demo LINK</h2></a>
+<a href= "https://youtu.be/ZcxbrEl1SWU"><h2>YouTube Demo</h2></a>
 
     
 ## Technologies <a name="technology"></a>
