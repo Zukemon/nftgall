@@ -34,7 +34,7 @@ Alter Gallery is a platform for showcasing digital art (NFTs) using WebGL render
     • The 'static' folder has four written JS files for each NFT. They are all very similar and product of the same functions with only slight variations in file names, inputs and outputs. Each file contains code with THREE JS tools that enable uploading, arranging and updating animated glb/ gltf 3D models, including HDRI backgrounds exported from Blender and added elements like lights and an audio visualizer to complete the 3D scenes. The static folder also includes a 'styles.css' file, a 'three.js-master' module nodes folder containing required THREEJS dependencies. Finally, within this folder are subfolders for images, 3D model (.glb) files, music and a 'world' folder for the various HDRI backgrounds used.
     For styling I depended on bootstrap and css.</p>
 <p>
-    • The 'templates' folder has all the html pages used to display the app data with for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes as per NFT model.</p> 
+    • The 'templates' folder has all the html pages used to display the app data for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes as per NFT model.</p> 
 
 Web App LINK: https://alter-gall.herokuapp.com
 
