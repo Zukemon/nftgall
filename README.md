@@ -37,7 +37,8 @@ Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using Web
     • The 'static' folder has four JS files per NFT demo display. These are all very similar and product of the same functions with only slight variations in file names, inputs and outputs. Each file contains code with THREE JS libraries that enable uploading, setting and updating animated glb/ gltf 3D models, including HDRI backgrounds/ environments exported from Blender with added lights and an audio visualizer. Then we have a 'styles.css' file, a 'three.js-master' module nodes folder containing the required THREEJS dependencies, subfolders for images, 3D models (.glb) files, music and a folder named 'world' for the various HDRI backgrounds used.
 </p>
 <p>
-    • The 'templates' folder has all the html pages used to display the app data for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes per NFT demo model.</p> 
+    • The 'templates' folder has all the html pages used to display the app data for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. These templates help execute the 'buy', 'sell', 'collections', 'records' functions and 3D scenes per NFT demo model.
+</p> 
 
 <a href= "https://alter-gall.herokuapp.com"><h5>Web App</h5></a>
 
