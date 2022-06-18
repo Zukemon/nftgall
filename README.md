@@ -15,33 +15,33 @@ https://user-images.githubusercontent.com/65060500/172038125-987df9c1-99e0-4680-
 
 
 ## Overview: 
-Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using WebGL rendered interractive 3D scenes and models accompanied by music (and audio visualiser). This was made possible using the Flask App, Three JS and Blender among other tools for the best results. I also used Visual Studio Code for my text editing.
+Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using WebGL rendered interractive 3D scenes and models accompanied by music (and audio visualiser). This was made possible using the Flask App, Three JS and Blender among other tools for the best results.
 
 ## Usage:
-<p> When the user enters the URL, they'll be brought to the landing page where they must register or login if already registered. Here the user can also browse nft thumbnails.
+<p> When the user enters the URL, they'll be brought to the landing page where they must register or login if already registered. Here the user can also browse thumbnails for the available demos.
 
-    Once logged in the user will be able to use the following tabs:
+    Tabs include:
     • 'Collections' tab: showing all purchases made.
     • 'Records' tab: showing all your transactions and total balance.
     • 'Password Change' tab: for password change.
     
     3D environment:
-    • Using the thumbnails the user can enter 3D environments and purchase the NFT they want.</p> 
+    • Clicking on the thumbnails the user can enter 3D environments and purchase the NFT they want.</p> 
 
-(The default cash for registered users is set at $500. Assuming that in real life scenerio they have a coupon code or something similar to register with, or even using of gift cards, or credit cards.)
+(The default cash for registered users is set at $500. Assuming that in real life scenerio they have a coupon code or something similar to register with, gift cards, or credit cards.)
 
 ## Setup:
 <p>
-    • The main project folder contains two Python scripts, 'app.py' and 'helpers.py' and one SQL database file, 'gallery.db'. The 'app.py' file basically handles all the routing and logic for users to navigate the app easily, taking in GET and POST requests from the user which also allow for parsing data to and from a SQL database with tables for 'users' and 'purchases' made. Also, in the main project folder there are subfolders for 'static' files and 'templates' as arranged according to the Flask app configuration.</p>    
+    • The main project folder contains two Python scripts, 'app.py' and 'helpers.py' and one SQL database file, 'gallery.db'. The 'app.py' file basically handles all the routing and logic for users to navigate the app easily, taking in GET and POST requests from the user which also allow for parsing data to and from a SQL database with tables for 'users' and 'purchases' made. Also included in the main project folder there are subfolders for 'static' files and 'templates' as arranged according to the Flask app configuration.</p>    
 <p>
-    • The 'static' folder has four JS files for each NFT. They are all very similar and product of the same functions with only slight variations in file names, inputs and outputs. Each file contains code with THREE JS tools that enable uploading, arranging and updating animated glb/ gltf 3D models, including HDRI backgrounds exported from Blender and added elements like lights and an audio visualizer to complete the 3D scenes. The static folder also includes a 'styles.css' file, a 'three.js-master' module nodes folder containing the required THREEJS dependencies. Also included within this folder are subfolders for images, 3D models (.glb) files, music and a folder named 'world' for the various HDRI backgrounds used.
-    For my styling I used bootstrap and css.</p>
+    • The 'static' folder has four JS files per NFT demo display. These are all very similar and product of the same functions with only slight variations in file names, inputs and outputs. Each file contains code with THREE JS libraries that enable uploading, setting and updating animated glb/ gltf 3D models, including HDRI backgrounds/ environments exported from Blender with added lights and an audio visualizer. Then we have a 'styles.css' file, a 'three.js-master' module nodes folder containing the required THREEJS dependencies, subfolders for images, 3D models (.glb) files, music and a folder named 'world' for the various HDRI backgrounds used.
+</p>
 <p>
-    • The 'templates' folder has all the html pages used to display the app data for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes per NFT model.</p> 
+    • The 'templates' folder has all the html pages used to display the app data for the user to make requests. The layout html files help make things a lot easier by handling redundancy issues thanks to jinja code. This templates help execute the 'buy', 'sell', 'collections', 'records' functions and most importantly the 3D scenes per NFT demo model.</p> 
 
-<a href= "https://alter-gall.herokuapp.com"><h2>Web App</h2></a>
+<a href= "https://alter-gall.herokuapp.com"><h5>Web App</h5></a>
 
-<a href= "https://youtu.be/ZcxbrEl1SWU"><h2>YouTube Demo</h2></a>
+<a href= "https://youtu.be/ZcxbrEl1SWU"><h5>YouTube Demo</h5></a>
 
     
 ## Technologies <a name="technology"></a>
