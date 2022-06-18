@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://alter-gall.herokuapp.com/">
+  <a href="https://alter-gall.herokuapp.com/" target="_blank">
     <h1>AltR GALLERY</h1>
   </a>
 </p>
