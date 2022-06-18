@@ -27,7 +27,7 @@ Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using Web
     • 'Password Change' tab: for password change.
     
     3D environment:
-    • Clicking on the thumbnails the user can enter 3D environments and purchase the NFT they want. 
+    • Clicking on the thumbnails the user can enter any 3D environment and purchase the NFT they want. 
 
 (The default cash for registered users is set at $500. Assuming that in real life scenerio they have a coupon code or something similar to register with, gift cards, or credit cards.)
 
