@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://alter-gall.herokuapp.com/">
-    <h1>ALTER CONCEPTS GALLERY</h1>
+    <h1>AltR GALLERY</h1>
   </a>
 </p>
 
@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/65060500/172038125-987df9c1-99e0-4680-
 
 
 ## Overview: 
-Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using WebGL rendered interractive 3D scenes and models accompanied by music (and audio visualiser). This was made possible using the Flask App, Three JS and Blender among other tools for the best results.
+AltR Gallery is a platform for showcasing digital art (NFTs) using WebGL rendered interractive 3D scenes and models accompanied by music (and audio visualiser). This was made possible using the Flask App, Three JS and Blender among other tools for the best results.
 
 ## Usage:
 <p> When the user enters the URL, they'll be brought to the landing page where they must register or login if already registered. Here the user can also browse thumbnails for the available demos.
