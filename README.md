@@ -19,6 +19,7 @@ Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using Web
 
 ## Usage:
 <p> When the user enters the URL, they'll be brought to the landing page where they must register or login if already registered. Here the user can also browse thumbnails for the available demos.
+</p>
 
     Tabs include:
     • 'Collections' tab: showing all purchases made.
@@ -26,7 +27,7 @@ Alter Concepts Gallery is a platform for showcasing digital art (NFTs) using Web
     • 'Password Change' tab: for password change.
     
     3D environment:
-    • Clicking on the thumbnails the user can enter 3D environments and purchase the NFT they want.</p> 
+    • Clicking on the thumbnails the user can enter 3D environments and purchase the NFT they want. 
 
 (The default cash for registered users is set at $500. Assuming that in real life scenerio they have a coupon code or something similar to register with, gift cards, or credit cards.)
 
