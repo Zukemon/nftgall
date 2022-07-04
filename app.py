@@ -163,7 +163,7 @@ def buy_dem_say():
                     price = stock["price"],
                     edition = edition)
         flash("Dem Say Bought!")
-        return redirect("/")
+        #return redirect("/")
     # else:
     #     return render_template("buy.html")
 
