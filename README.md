@@ -1,4 +1,4 @@
-** Aware of the bugs in the deployed version and working on fixing that. **
+** Aware of the bugs in the deployed version and working on a fix. **
 
 <p align="center">
   <a href="https://alter-gall.herokuapp.com/" target="_blank">
