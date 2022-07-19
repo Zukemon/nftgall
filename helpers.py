@@ -1,15 +1,7 @@
-# import os
-# import requests
-# import urllib.parse
-from urllib.parse import quote, urlencode, quote_plus
-# import json
 
-from flask import redirect, render_template, request, session, url_for, json
+from flask import redirect, render_template, session
 from functools import wraps
-
-from requests.models import Response
-from werkzeug.wrappers import response
-
+import sqlite3
 
 def apology(message, code=400):
     """Render message as an apology to user."""
@@ -157,7 +149,12 @@ def naomi(data):
         return None
 
         
-        
+def get_db_connection():
+    conn = sqlite3.connect('zapa.db')
+    conn.row_factory = sqlite3.Row
+    # with open('schema.sql') as f:
+    #     conn.executescript(f.read())
+    return conn
    
     
 def usd(value):

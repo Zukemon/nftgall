@@ -1,14 +1,17 @@
-# import os
+import os
 
 from cs50 import SQL
+from multiprocessing.connection import Connection
 from flask import Flask, flash, redirect, render_template, request, session
 from flask_session import Session
+from flask_sqlalchemy import SQLAlchemy
 from tempfile import mkdtemp
 from werkzeug.exceptions import default_exceptions, HTTPException, InternalServerError
 from werkzeug.security import check_password_hash, generate_password_hash
 
-from helpers import apology, login_required, closer, dem_say, kilimanjaro, naomi, usd
+from helpers import apology, login_required, closer, dem_say, kilimanjaro, naomi, usd, get_db_connection
 # import sqlite3
+
 
 # Configure application
 app = Flask(__name__)
@@ -32,15 +35,31 @@ def after_request(response):
 # Custom filter
 app.jinja_env.filters["usd"] = usd
 
-# Configure session to use filesystem (instead of signed cookies)
-app.config["SESSION_FILE_DIR"] = mkdtemp()
-app.config["SESSION_PERMANENT"] = False
-app.config["SESSION_TYPE"] = "filesystem"
-Session(app)
+# # Configure session to use filesystem (instead of signed cookies)
+# app.config["SESSION_FILE_DIR"] = mkdtemp()
+# app.config["SESSION_PERMANENT"] = False
+# app.config["SESSION_TYPE"] = "filesystem"
+# Session(app)
+
+
+
+# create a db but using flask_sqlalchemy syntax
+db = SQLAlchemy()
+
+# db = get_db_connection()
+
+app.config['SECRET_KEY'] = 'h1p3908jh0hji1nondjakjsoh8n1kju4i9y7yuui2hu0o8ujl'
+app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+db.init_app(app)
+
+
+
+# connection = sqlite3.connect('gallery.db')
+
 
 # Configure CS50 Library to use SQLite database
 db = SQL("sqlite:///gallery.db")
-
 
 
 @app.route("/")
@@ -376,7 +395,7 @@ def register():
 
         try:
             # insert username and password hash to database
-            rows = db.execute("INSERT INTO users (username, hash) VALUES(?,?)",
+            db.execute("INSERT INTO users (username, hash) VALUES(?,?)",
                         username, hash)
 
         except:
