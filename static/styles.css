@@ -495,3 +495,34 @@ body {
 	background-size: cover;
 	opacity: 1;
 } */
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline a:hover {
+	-webkit-text-fill-color: rgb(215, 215, 16);
+  }
+/* Match any class name that starts with icon */
+[class^="specta"] {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 15px;
+	margin-right: 10px;
+	fill: #fff;
+	color:#6cb4a4;
+  }
+
+  /* Match any class name that starts with icon */
+[class^="icon"] {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 15px;
+	margin-right: 10px;
+	fill: #fff;
+	color:rgb(76, 172, 189);
+  }
