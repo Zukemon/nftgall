@@ -404,7 +404,7 @@ def register():
 
         flash("Registered!")
         # Redirect user to home page
-        return redirect("/")
+        return redirect("/login")
 
     # User reached route via GET (as by clicking a link or via redirect)
     else:
@@ -414,7 +414,7 @@ def register():
 @app.route('/settings', methods=['GET', 'POST'])
 @login_required
 def change_password():
-
+    """Change password"""
     if request.method == "POST":
 
         user_id=session["user_id"]

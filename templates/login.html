@@ -15,43 +15,58 @@
         <button class="btn btn-dark bg-transparent" type="submit">Log In</button>
     </form>
 
+    <div>
+        <h7 class="" style="color: rgb(143, 160, 184); font-size: medium; opacity: 0%;">-------------</h7>
+    </div>
+    
+    <div>
+        <h8 class="" style="color: rgb(143, 160, 184); font-size: medium; font-family: 'Lucida Grande', sans-serif; opacity: 70%;">! Demo App !</h8>
+    </div>
+
     <div id="viewer">
         <div id= projects>
             <div class="row">
                 
                 <div class="col-lg-4 col-md-12 top-buffer">
-                <a href="/nft_naomi" target="_blank" rel="noopener">
+                <a href="/nft_naomi" rel="noopener">
                     <img src="/static/images/naomi.jpg" loading="lazy"></a>
                 </div>
                     
                 <div class="col-lg-4 col-md-6 top-buffer">
-                    <a href="/nft_dem_say" target="_blank" rel="noopener">
+                    <a href="/nft_dem_say" rel="noopener">
                         <img src="/static/images/dem_say.jpg" loading="lazy"></a>
                 </div>
 
                 <div class="col-lg-4 col-md-6 top-buffer">
-                    <a href="/nft_kilimanjaro" target="_blank" rel="noopener">
+                    <a href="/nft_kilimanjaro" rel="noopener">
                         <img src="/static/images/kilimanjaro.jpg" loading="lazy"></a>
                 </div>
             </div>
             
             <div class="row space">
                 <div class="col-lg-4 col-md-12 top-buffer">
-                <a href="/nft_closer" target="_blank" rel="noopener">
+                <a href="/nft_closer" rel="noopener">
                     <img src="/static/images/closer.jpg" loading="lazy"></a>
                 </div>
                     
                 <div class="col-lg-4 col-md-6 top-buffer">
-                    <a href="/static/images/" target="_blank" rel="noopener">
+                    <a href="/nft_closer" rel="noopener">
                         <img src="/static/images/img1.jpg" loading="lazy"></a>
                 </div>
 
                 <div class="col-lg-4 col-md-6 top-buffer">
-                    <a href="/static/images/" target="_blank" rel="noopener">
+                    <a href="/nft_closer" rel="noopener">
                         <img src="/static/images/img1.jpg" loading="lazy"></a>
                 </div>
             </div>
         </div>
     </div>
+    
+    <script>
+        // Alert user to register and/or login
+        document.getElementById("projects").addEventListener("click", function() {
+        alert("Please register and login to continue.");
+        }, true);
+    </script>
 
 {% endblock %}

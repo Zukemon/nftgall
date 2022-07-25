@@ -40,7 +40,7 @@ def closer(data):
     data=  {
                 'Closer.Alt':    {
                             'companyName':'Closer.Alt',
-                            'currency':'USD',
+                            'currency':'Beta',
                             'latestPrice':40.91,
                             'nft':'Closer.Alt'
                             # 'image':url
@@ -69,7 +69,7 @@ def dem_say(data):
     data=  {
                 'Dem.Say.Alt': {
                             'companyName':'Dem.Say.Alt',
-                            'currency':'USD',
+                            'currency':'Beta',
                             "latestPrice":24.54,
                             'nft':'Dem.Say.Alt'
                         }                    
@@ -98,7 +98,7 @@ def kilimanjaro(data):
     data=  {                
                 'Kilimanjaro.Alt':  {
                             'companyName':'Kilimanjaro.Alt',
-                            'currency':'USD',
+                            'currency':'Beta',
                             'latestPrice':29.76,
                             'nft':'Kilimanjaro.Alt'
                         }
@@ -127,7 +127,7 @@ def naomi(data):
     data=  {                
                 'Naomi.Alt':  {   
                             'companyName':'Naomi.Alt',
-                            'currency':'USD',
+                            'currency':'Beta',
                             'latestPrice':30.76,
                             'nft':'Naomi.Alt'
                         }
@@ -158,5 +158,5 @@ def get_db_connection():
    
     
 def usd(value):
-    """Format value as USD."""
-    return f"${value:,.2f}"
+    """Format value as Beta(made up) Currency."""
+    return f"ß {value:,.2f}"
