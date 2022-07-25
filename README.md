@@ -32,6 +32,7 @@ AltR Gallery is a platform for showcasing digital art (NFTs) using WebGL rendere
 (The default cash for registered users is set at $500. Assuming that in real life scenerio they have a coupon code or something similar to register with, gift cards, or credit cards.)
 
 ## Setup:
+ (using Flask Framework)
 <p>
     • The main project folder contains two Python scripts, 'app.py' and 'helpers.py' and one SQL database file, 'gallery.db'. The 'app.py' file basically handles all the routing and logic for users to navigate the app easily, taking in GET and POST requests from the user which also allow for parsing data to and from a SQL database with tables for 'users' and 'purchases' made. Also included in the main project folder there are subfolders for 'static' files and 'templates' as arranged according to the Flask app configuration.</p>    
 <p>
