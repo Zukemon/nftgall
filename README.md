@@ -7,7 +7,7 @@
 # Table of Contents
 1. [Overview](#overview)
 2. [Usage](#usage)
-3. [Setup (using Flask Framework)](#setup)
+3. [Setup](#setup (using Flask Framework))
 4. [Technologies](#technology)
 
 
