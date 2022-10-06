@@ -78,7 +78,7 @@ function init() {
 
         mixer = new THREE.AnimationMixer( gltf.scene );
         var action = mixer.clipAction( gltf.animations[ 0 ]);
-        var action_b = mixer.clipAction( gltf.animations[ 1 ]);
+        var action_b = mixer.clipAction( gltf.animations[ 5 ]);
         // var action_c = mixer.clipAction( gltf.animations[ 2 ]);
           
         action.play();
