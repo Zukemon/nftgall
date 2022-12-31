@@ -72,7 +72,7 @@ AltR Gallery is a platform for showcasing digital art (NFTs) using WebGL rendere
 
     • Download code. Go to directory. Activate virtual environment
     
-    "source venv/bin/activate"
+    using "source venv/bin/activate"
     
     • Enter command "flask run"
     
