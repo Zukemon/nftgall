@@ -76,7 +76,7 @@ AltR Gallery is a platform for showcasing digital art (NFTs) using WebGL rendere
     
     • Install requirements
     
-    "pip install -r requirements"
+    "pip install -r requirements.txt"
     
     • Activate virtual environment
     
