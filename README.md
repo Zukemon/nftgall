@@ -68,10 +68,10 @@ AltR Gallery is a platform for showcasing digital art (NFTs) using WebGL rendere
   </tr>
 </table>
 
-<h3>To run app on local server:</h3>
+<h4>To run app on local server:</h4>
 
-    • After downloading code simply go to the code directory and activate the virtual environment using the command:
+   • After downloading code simply go to the code directory and activate the virtual environment using the command:
     "source venv/bin/activate"
-    • Next step is to simply run the command,
+   • Next step is to simply run the command,
     "flask run"
     and follow the generated local server link to view app on browser
