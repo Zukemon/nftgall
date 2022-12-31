@@ -68,7 +68,7 @@ AltR Gallery is a platform for showcasing digital art (NFTs) using WebGL rendere
   </tr>
 </table>
 
-<h4>To run app on local server (OS X):</h4>
+<h4>Commands to run app on local server (OS X):</h4>
 
     • Download code. Go to directory. Create virtual environment
     
