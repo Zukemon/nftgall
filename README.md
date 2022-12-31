@@ -77,4 +77,5 @@ AltR Gallery is a platform for showcasing digital art (NFTs) using WebGL rendere
     • Enter command "flask run"
     
     Follow the link while app is running succesfully and app should now be visible on your browser.
+    
     Use "ctrl c" to quit process.
