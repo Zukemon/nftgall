@@ -67,3 +67,8 @@ AltR Gallery is a platform for showcasing digital art (NFTs) using WebGL rendere
     <td><img alt="SQL" src ="https://img.shields.io/badge/SQLite%20-C0098.svg?&style=for-the-badge&logo=SQLite&logoColor=white"/> </td>
   </tr>
 </table>
+
+<h5>To run app on local server:</h5>
+<p> • After downloading code - got to directory and activate virtual environmant using command "source venv/bin/activate" in your text editor,
+• Next - simply run command "flask run" and follow generated local server link to view app on your browser.
+</p>
